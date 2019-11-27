@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600);
   // wait for serial port to connect. Needed for native USB port only
   while (!Serial);
-
+  //HELLLO MUTHERFUKCER
   Serial.println ("Initializing...");
 
   // Step 2: Initialize the data rate for the SoftwareSerial port
