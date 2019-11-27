@@ -4,13 +4,11 @@
 
 // Setup software serial port
 TFMini tfmini;
-//first commit with lovekjlkmlkm
 void setup() {
   // Step 1: Initialize hardware serial port (serial debug port)
   Serial.begin(9600);
   // wait for serial port to connect. Needed for native USB port only
   while (!Serial);
-  //HELLLO MUTHERFUKCER
   Serial.println ("Initializing...");
 
   // Step 2: Initialize the data rate for the SoftwareSerial port
